@@ -1,0 +1,26 @@
+# CampShare – Google Play URLs (nach Deploy ausfüllen)
+
+GITHUB_USER=DEIN-USERNAME
+REPO=campshare-website
+
+Website=
+https://DEIN-USERNAME.github.io/campshare-website/
+
+Datenschutzrichtlinie=
+https://DEIN-USERNAME.github.io/campshare-website/datenschutz.html
+
+Konto_loeschen=
+https://DEIN-USERNAME.github.io/campshare-website/konto-loeschen.html
+
+Nutzungsbedingungen=
+https://DEIN-USERNAME.github.io/campshare-website/nutzungsbedingungen.html
+
+Impressum=
+https://DEIN-USERNAME.github.io/campshare-website/impressum.html
+
+Kontakt_Support_E-Mail=
+support@DEINE-DOMAINE.com
+
+# --- Alternative: Google Sites ---
+# Website=https://sites.google.com/view/campshare
+# Datenschutz=https://sites.google.com/view/campshare/datenschutz
