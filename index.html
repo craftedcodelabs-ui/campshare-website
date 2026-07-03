@@ -3,179 +3,177 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="CampShare – Der Nachbarschafts-Marktplatz für Camper. Handeln, tauschen und helfen nur vor Ort auf dem Campingplatz.">
-  <title>CampShare – Handeln nur am Campingplatz</title>
+  <meta name="description" content="CampShare – Nachbarschafts-Marktplatz für Camper. App-Infos, Datenschutz, Konto löschen, AGB und Impressum.">
+  <title>CampShare – App &amp; Rechtliches</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
   <header>
     <div class="header-inner">
-      <a class="logo" href="index.html">CampShare<span>Nur am Platz · Camper helfen Campern</span></a>
-      <nav>
-        <a href="index.html">Start</a>
-        <a href="datenschutz.html">Datenschutz</a>
-        <a href="nutzungsbedingungen.html">AGB</a>
-        <a href="konto-loeschen.html">Konto löschen</a>
-        <a href="impressum.html">Impressum</a>
-        <a href="kontakt.html">Kontakt</a>
+      <a class="logo" href="#start">CampShare<span>Nur am Platz · com.craftedcodelabs.campshare</span></a>
+      <nav class="page-nav">
+        <a href="#datenschutz">Datenschutz</a>
+        <a href="#konto-loeschen">Konto löschen</a>
+        <a href="#agb">AGB</a>
+        <a href="#impressum">Impressum</a>
+        <a href="#kontakt">Kontakt</a>
       </nav>
     </div>
   </header>
 
   <main>
-    <section class="hero">
+    <!-- START -->
+    <section id="start" class="hero">
       <h1>CampShare</h1>
       <p class="lead">
-        Der Nachbarschafts-Marktplatz für deinen Campingplatz:
-        verkaufen, verschenken, suchen und helfen – <strong>nur vor Ort</strong>,
-        persönlich am Stellplatz, von Camper zu Camper.
+        Der Nachbarschafts-Marktplatz für deinen Campingplatz – verkaufen, verschenken, suchen und helfen
+        <strong>nur vor Ort</strong>, persönlich am Stellplatz.
       </p>
       <div class="badges">
-        <span class="badge">Nur am Platz</span>
+        <span class="badge">Lanterna &amp; Marina di Venezia</span>
         <span class="badge">Kein Versand</span>
         <span class="badge">Chat &amp; Push</span>
         <span class="badge">Melden &amp; Blockieren</span>
-        <span class="badge">DSGVO-konform</span>
       </div>
       <div class="btn-row">
         <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.craftedcodelabs.campshare" rel="noopener">Google Play</a>
-        <a class="btn btn-secondary" href="datenschutz.html">Datenschutzerklärung</a>
+        <a class="btn btn-secondary" href="#datenschutz">Datenschutz</a>
       </div>
     </section>
 
     <section class="accent-box">
-      <h2>Das Grundprinzip: Handeln nur am Platz</h2>
-      <p>
-        CampShare ist bewusst <strong>kein eBay und kein Versandportal</strong>.
-        Alles passiert dort, wo du urlaubst – auf dem Campingplatz, den du in der App auswählst.
-      </p>
+      <h2>Kurz &amp; klar</h2>
       <ul>
-        <li><strong>Ein Platz, eine Community</strong> – In Entdecken siehst du ausschließlich Inserate von Campern auf deinem Campingplatz.</li>
-        <li><strong>Persönliche Übergabe</strong> – Treffen am Stellplatz mit Zone und optionaler Stellplatznummer.</li>
-        <li><strong>Nachbarn statt Händler</strong> – Rein privat zwischen Urlaubern, ohne Gewerbe.</li>
-        <li><strong>Hilfe in der Nähe</strong> – Hilfegesuche informieren per Push nur andere Camper auf demselben Platz.</li>
+        <li>Inserate nur auf <strong>deinem gewählten Campingplatz</strong> – kein bundesweiter Marktplatz</li>
+        <li>Übergabe immer <strong>persönlich am Stellplatz</strong> – die App vermittelt nur den Kontakt</li>
+        <li>Optional: <strong>Urlaubs-Pass</strong> (30 Tage) oder <strong>Lifetime-Pass</strong> über Google Play</li>
+        <li>Konto jederzeit in der App löschen · Inserate melden · Nutzer blockieren</li>
       </ul>
     </section>
 
-    <section>
-      <h2>Derzeit unterstützte Campingplätze</h2>
-      <div class="grid">
-        <div class="card">
-          <h3>Lanterna Premium Camping Resort</h3>
-          <p>Poreč, Kroatien</p>
-        </div>
-        <div class="card">
-          <h3>Marina di Venezia</h3>
-          <p>Cavallino, Italien</p>
-        </div>
+    <!-- DATENSCHUTZ -->
+    <section id="datenschutz" class="legal-block">
+      <h2>Datenschutzerklärung</h2>
+      <p class="meta">Stand: Juli 2026 · Verantwortlich: Crafted Code Labs (<a href="#impressum">Impressum</a>)</p>
+
+      <div class="card">
+        <h3>Welche Daten?</h3>
+        <ul>
+          <li><strong>Account:</strong> E-Mail, gehashtes Passwort, Nutzer-ID</li>
+          <li><strong>Profil:</strong> Name, optional Telefon &amp; Profilbild, Campingplatz, Anwesenheit</li>
+          <li><strong>Inhalte:</strong> Inserate, Fotos, Chat-Nachrichten</li>
+          <li><strong>Push:</strong> OneSignal (Nutzer-ID als External ID)</li>
+          <li><strong>Käufe:</strong> Premium-Status via Google Play / RevenueCat</li>
+          <li><strong>Werbung:</strong> optional Video-Werbung (AdMob) – keine Banner in Entdecken</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Drittanbieter</h3>
+        <p>Supabase (Backend), OneSignal (Push), Firebase/AdMob (App &amp; Video-Werbung), RevenueCat &amp; Google Play (Käufe).</p>
+        <p>Details &amp; Rechtsgrundlagen: Art. 6 DSGVO (Vertrag, berechtigtes Interesse, Einwilligung).</p>
+      </div>
+
+      <div class="card">
+        <h3>Ihre Rechte</h3>
+        <p>Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit, Widerspruch, Beschwerde bei der Datenschutzbehörde.</p>
+        <p>Kontakt: <a href="mailto:datenschutz@campshare.app">datenschutz@campshare.app</a> · <a href="#konto-loeschen">Konto löschen</a></p>
       </div>
     </section>
 
-    <section>
-      <h2>Was CampShare kann</h2>
-      <div class="grid">
-        <div class="card">
-          <h3>Entdecken</h3>
-          <p>
-            Inserate <strong>nur auf deinem Campingplatz</strong> – filtern nach Verkauf, Verschenken,
-            Suchen oder Hilfe. Smart-Suche mit Premium. Hervorgehobene Inserate extra sichtbar.
-          </p>
-        </div>
-        <div class="card">
-          <h3>Inserieren &amp; Profil</h3>
-          <p>
-            Vier Kategorien mit Fotos, Zone und Stellplatz-Angabe. Profilbild, Anwesenheit
-            (gerade am Platz oder geplante Anreise) und Campingplatz-Auswahl im Profil.
-          </p>
-        </div>
-        <div class="card">
-          <h3>Chat &amp; Push</h3>
-          <p>
-            Direkt mit Nachbarn schreiben. Push bei neuen Chat-Nachrichten und Hilfegesuchen
-            auf deinem Platz (OneSignal). Ungelesene Chats sind markiert.
-          </p>
-        </div>
-        <div class="card">
-          <h3>Sicherheit &amp; Fairplay</h3>
-          <p>
-            Inserate melden, Nutzer blockieren, Chats löschen. Konto jederzeit in der App
-            unwiderruflich löschen (DSGVO). Merkliste für spätere Übergaben vor Ort.
-          </p>
-        </div>
+    <!-- KONTO LÖSCHEN -->
+    <section id="konto-loeschen" class="legal-block">
+      <h2>Konto &amp; Daten löschen</h2>
+      <p class="meta">Google-Play-Pflicht · Package: com.craftedcodelabs.campshare</p>
+
+      <div class="accent-box">
+        <h3>In der App (empfohlen)</h3>
+        <ol>
+          <li>CampShare öffnen → Tab <strong>Profil</strong></li>
+          <li><strong>„Konto unwiderruflich löschen“</strong> → bestätigen</li>
+        </ol>
+        <p style="margin-top:0.75rem;">Account, Profil, Inserate, Profilbild und Chat-Daten werden dauerhaft entfernt.</p>
+      </div>
+
+      <div class="card" style="margin-top:1rem;">
+        <h3>Alternativ per E-Mail</h3>
+        <p>An <a href="mailto:delete@campshare.app?subject=CampShare%20Kontol%C3%B6schung">delete@campshare.app</a> mit registrierter E-Mail – Bearbeitung innerhalb von 30 Tagen.</p>
+        <p><strong>Gelöscht werden:</strong> Konto, Profil, Inserate, Fotos, Chats, Push-Zuordnung.</p>
+        <p><strong>Ausnahmen:</strong> Google-Play-Kaufbelege (gesetzliche Aufbewahrung), anonymisierte Meldungen.</p>
       </div>
     </section>
 
-    <section>
-      <h2>Premium &amp; Werbung</h2>
-      <div class="grid">
-        <div class="card">
-          <h3>30-Tage Urlaubs-Pass</h3>
-          <p>
-            Werbefrei inserieren, alle 5 Fotos, Smart-Suche und Video-Belohnungen ohne Werbung –
-            jederzeit erneut verlängerbar (Google Play / RevenueCat).
-          </p>
-        </div>
-        <div class="card">
-          <h3>Dauercamper Lifetime-Pass</h3>
-          <p>
-            Einmal zahlen, dauerhaft alle Premium-Features – ideal für regelmäßige Camper.
-          </p>
-        </div>
-        <div class="card">
-          <h3>Video-Belohnungen (kostenlos)</h3>
-          <p>
-            Optional: Extra-Fotos freischalten, Inserat nach oben schieben oder 24-Stunden-Highlight.
-            Keine Banner-Werbung in Entdecken.
-          </p>
-        </div>
+    <!-- AGB -->
+    <section id="agb" class="legal-block">
+      <h2>Nutzungsbedingungen (AGB)</h2>
+      <p class="meta">Stand: Juli 2026</p>
+
+      <ul class="compact-list">
+        <li>CampShare ist ein <strong>privater Community-Marktplatz</strong> nur für den jeweiligen Campingplatz (derzeit Lanterna, Marina di Venezia).</li>
+        <li><strong>Kein Versand</strong> – Absprachen und Übergaben erfolgen ausschließlich vor Ort. Der Betreiber ist nicht Vertragspartner.</li>
+        <li>Mindestalter 16 Jahre. Kein Gewerbe, kein Spam, keine illegalen Inhalte.</li>
+        <li>Inserate können gemeldet, Nutzer blockiert werden. Verstöße können zur Sperrung führen.</li>
+        <li>Premium-Pässe und Video-Belohnungen sind optional; Abwicklung über Google Play.</li>
+        <li>Es gilt österreichisches Recht. CampShare steht in keiner Verbindung zu Campingplatz-Betreibern.</li>
+      </ul>
+    </section>
+
+    <!-- IMPRESSUM -->
+    <section id="impressum" class="legal-block">
+      <h2>Impressum</h2>
+      <p class="meta">§ 5 ECG (AT) / TMG (DE)</p>
+
+      <div class="card">
+        <p>
+          <strong>Crafted Code Labs</strong> · CampShare App<br>
+          Österreich<br>
+          GitHub: <a href="https://github.com/craftedcodelabs-ui" rel="noopener noreferrer">craftedcodelabs-ui</a>
+        </p>
+        <p style="margin-top:1rem;">
+          E-Mail: <a href="mailto:support@campshare.app">support@campshare.app</a>
+        </p>
+      </div>
+      <div class="warn-box" style="margin-top:1rem;">
+        <strong>Hinweis:</strong> Vollständige Postadresse vor Veröffentlichung im Impressum ergänzen (Pflicht AT/DE).
       </div>
     </section>
 
-    <section>
-      <div class="warn-box">
-        <strong>Haftungsausschluss:</strong> CampShare ist ein inoffizielles Community-Projekt von Campern für Camper
-        ohne Verbindung zu Campingplatz-Betreibern (z.&nbsp;B. Lanterna, Marina di Venezia). Markennamen dienen nur
-        zur Orientierung. Der Betreiber stellt die technische Plattform bereit, ist aber nicht Partei bei privaten
-        Absprachen oder Übergaben vor Ort.
-      </div>
-    </section>
-
-    <section>
-      <h2>Rechtliches &amp; Google Play</h2>
+    <!-- KONTAKT -->
+    <section id="kontakt" class="legal-block">
+      <h2>Kontakt &amp; Support</h2>
       <div class="grid">
         <div class="card">
-          <h3>Pflicht-URLs für Play Console</h3>
-          <ul>
-            <li><a href="datenschutz.html">Datenschutzerklärung</a></li>
-            <li><a href="nutzungsbedingungen.html">Nutzungsbedingungen (AGB)</a></li>
-            <li><a href="konto-loeschen.html">Konto &amp; Daten löschen</a></li>
-            <li><a href="impressum.html">Impressum</a></li>
-            <li><a href="kontakt.html">Kontakt &amp; Support</a></li>
-          </ul>
+          <h3>Support</h3>
+          <p><a href="mailto:support@campshare.app">support@campshare.app</a></p>
+          <p><a href="https://github.com/craftedcodelabs-ui/campshare-website/issues" rel="noopener noreferrer">GitHub Issues</a></p>
         </div>
         <div class="card">
-          <h3>App-Informationen</h3>
-          <ul>
-            <li><strong>App-Name:</strong> CampShare</li>
-            <li><strong>Package:</strong> com.craftedcodelabs.campshare</li>
-            <li><strong>Version:</strong> 1.0.0</li>
-            <li><strong>Entwickler:</strong> Crafted Code Labs</li>
-            <li><strong>Zielgruppe:</strong> Camper ab 16 Jahren</li>
-          </ul>
+          <h3>Datenschutz</h3>
+          <p><a href="mailto:datenschutz@campshare.app">datenschutz@campshare.app</a></p>
+        </div>
+        <div class="card">
+          <h3>Inhalte melden</h3>
+          <p>In der App: „Inserat melden“ oder support@campshare.app</p>
         </div>
       </div>
+      <p class="meta" style="margin-top:1.5rem;">Antwortzeit: in der Regel 3–5 Werktage</p>
     </section>
+
+    <div class="warn-box" style="margin-top:3rem;">
+      <strong>Haftung:</strong> CampShare ist ein inoffizielles Community-Projekt. Keine Haftung für Inserate,
+      Übergaben oder Angaben zwischen Nutzern. Erwähnte Campingplätze dienen nur zur Orientierung.
+    </div>
   </main>
 
   <footer>
     <div class="footer-inner">
-      <div>&copy; 2026 CampShare · Crafted Code Labs</div>
+      <div>&copy; 2026 CampShare · Crafted Code Labs · v1.0.0</div>
       <div class="footer-links">
-        <a href="datenschutz.html">Datenschutz</a>
-        <a href="nutzungsbedingungen.html">AGB</a>
-        <a href="konto-loeschen.html">Konto löschen</a>
-        <a href="impressum.html">Impressum</a>
-        <a href="kontakt.html">Kontakt</a>
+        <a href="#start">Start</a>
+        <a href="#datenschutz">Datenschutz</a>
+        <a href="#konto-loeschen">Konto löschen</a>
+        <a href="#agb">AGB</a>
+        <a href="#impressum">Impressum</a>
       </div>
     </div>
   </footer>

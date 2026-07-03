@@ -1,23 +1,29 @@
-# CampShare – Google Play Console URLs (Stand: Juli 2026)
-# GitHub Pages: craftedcodelabs-ui/campshare-website
+# CampShare – Google Play Console URLs
+# One-Pager: index.html · Alte URLs leiten per Anker weiter
 
 Website=
 https://craftedcodelabs-ui.github.io/campshare-website/
 
+One-Pager=
+https://craftedcodelabs-ui.github.io/campshare-website/
+
 Datenschutzrichtlinie=
-https://craftedcodelabs-ui.github.io/campshare-website/datenschutz.html
+https://craftedcodelabs-ui.github.io/campshare-website/#datenschutz
 
 Konto_loeschen=
-https://craftedcodelabs-ui.github.io/campshare-website/konto-loeschen.html
+https://craftedcodelabs-ui.github.io/campshare-website/#konto-loeschen
 
 Nutzungsbedingungen=
-https://craftedcodelabs-ui.github.io/campshare-website/nutzungsbedingungen.html
+https://craftedcodelabs-ui.github.io/campshare-website/#agb
 
 Impressum=
-https://craftedcodelabs-ui.github.io/campshare-website/impressum.html
+https://craftedcodelabs-ui.github.io/campshare-website/#impressum
 
-Kontakt_Support=
-https://craftedcodelabs-ui.github.io/campshare-website/kontakt.html
+Kontakt=
+https://craftedcodelabs-ui.github.io/campshare-website/#kontakt
+
+# Alternativ (Weiterleitung zum gleichen Abschnitt):
+# …/datenschutz.html  ·  …/konto-loeschen.html  ·  …/nutzungsbedingungen.html
 
 Support_E-Mail=
 support@campshare.app
