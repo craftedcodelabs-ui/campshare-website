@@ -10,6 +10,8 @@
   --border: #e2e8f0;
   --warn-bg: #fef3c7;
   --warn-text: #78350f;
+  --accent-bg: #eff6ff;
+  --accent-border: #0ea5e9;
   --max: 960px;
 }
 
@@ -179,6 +181,31 @@ h3 {
   color: var(--warn-text);
   font-size: 0.95rem;
 }
+
+.accent-box {
+  background: var(--accent-bg);
+  border: 2px solid var(--accent-border);
+  border-radius: 16px;
+  padding: 1.5rem 1.75rem;
+}
+
+.accent-box h2 {
+  margin-top: 0;
+  color: var(--blue-dark);
+}
+
+.accent-box p,
+.accent-box li {
+  color: #334155;
+  font-size: 0.95rem;
+}
+
+.accent-box ul {
+  padding-left: 1.25rem;
+  margin-top: 0.75rem;
+}
+
+.accent-box li { margin-bottom: 0.4rem; }
 
 .legal-content h2 { margin-top: 2rem; }
 .legal-content h2:first-child { margin-top: 0; }

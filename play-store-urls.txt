@@ -1,7 +1,5 @@
-# CampShare – Google Play URLs (GitHub Pages live)
-
-GITHUB_USER=craftedcodelabs-ui
-REPO=campshare-website
+# CampShare – Google Play Console URLs (Stand: Juli 2026)
+# GitHub Pages: craftedcodelabs-ui/campshare-website
 
 Website=
 https://craftedcodelabs-ui.github.io/campshare-website/
@@ -18,5 +16,11 @@ https://craftedcodelabs-ui.github.io/campshare-website/nutzungsbedingungen.html
 Impressum=
 https://craftedcodelabs-ui.github.io/campshare-website/impressum.html
 
-Kontakt_Support_E-Mail=
+Kontakt_Support=
+https://craftedcodelabs-ui.github.io/campshare-website/kontakt.html
+
+Support_E-Mail=
 support@campshare.app
+
+Package=
+com.craftedcodelabs.campshare

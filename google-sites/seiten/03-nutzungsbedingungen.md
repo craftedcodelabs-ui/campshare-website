@@ -14,12 +14,15 @@ Mit Registrierung oder Nutzung der App akzeptieren Sie diese Bedingungen. Wenn S
 
 ## 2. Leistungsbeschreibung
 
-CampShare ist eine Community-Plattform für Camper. Nutzer können:
+CampShare ist eine Community-Plattform für Camper – ein **Nachbarschafts-Marktplatz nur für den jeweiligen Campingplatz**. Nutzer können:
 
-- Inserate erstellen (Verkauf, Verschenken, Suchen, Hilfe)
-- Fotos und Stellplatz-Informationen teilen
-- mit anderen Nutzern chatten
+- Inserate erstellen (Verkauf, Verschenken, Suchen, Hilfe) – sichtbar nur für Camper auf dem **selben Platz**
+- Fotos und Stellplatz-Informationen teilen, um **persönliche Übergaben vor Ort** zu erleichtern
+- Anwesenheit am Platz angeben (gerade da oder geplante Anreise)
+- mit anderen Nutzern auf dem Platz chatten
 - Favoriten speichern und Profile verwalten
+
+**Kein Versand, keine Fernkäufe:** CampShare vermittelt Kontakte zwischen Campern auf demselben Campingplatz. Kauf, Tausch, Schenken und Hilfe erfolgen ausschließlich **persönlich am Stellplatz** – nicht über die App abgewickelt und nicht per Post.
 
 Der Betreiber stellt die technische Plattform bereit, ist aber **nicht Partei** bei privaten Absprachen, Käufen oder Tauschgeschäften zwischen Nutzern.
 
@@ -49,6 +52,7 @@ Folgende Inhalte und Handlungen sind untersagt:
 - Illegale, beleidigende, diskriminierende oder pornografische Inhalte
 - Betrug, Spam, Werbung für externe Dienste ohne Erlaubnis
 - Gewerblicher Handel (CampShare ist rein privat zwischen Urlaubern)
+- **Versand, Fernverkauf oder Handel außerhalb des Campingplatzes** – CampShare ist nur für persönliche Übergaben vor Ort gedacht
 - Gefährliche Güter ohne persönliche Einweisung (z. B. Gasflaschen, Chemikalien)
 - Belästigung anderer Nutzer oder Störung des Campingplatzbetriebs
 - Veröffentlichung fremder personenbezogener Daten ohne Einwilligung

@@ -1,27 +1,40 @@
 # CampShare Website
 
-Statische Website für Google Play Richtlinien und rechtliche Pflichtangaben.
+Statische Website für **Google Play** (Datenschutz, Konto löschen, Impressum, AGB).
 
-## GitHub Pages (empfohlen)
+## Live-URLs (GitHub Pages)
 
-Website als eigenes Repo mit automatischem Deploy:
+| Seite | URL |
+|-------|-----|
+| Start | https://craftedcodelabs-ui.github.io/campshare-website/ |
+| Datenschutz | …/datenschutz.html |
+| Konto löschen | …/konto-loeschen.html |
+| AGB | …/nutzungsbedingungen.html |
+| Impressum | …/impressum.html |
+| Kontakt | …/kontakt.html |
+
+Alle URLs auch in `play-store-urls.txt` zum Kopieren in die Play Console.
+
+## Deploy
+
+Automatisch bei Push auf `main` (GitHub Actions → Pages).
 
 ```powershell
-# Einmalig: bei GitHub anmelden
-gh auth login
-
-# Repo erstellen, pushen, Pages aktivieren
-cd d:\AppCreate\CampShare
-.\scripts\setup_github_website.ps1
+cd d:\AppCreate\CampShare\website
+git add .
+git commit -m "Update legal pages for CampShare 1.0"
+git push origin main
 ```
 
-Danach erreichbar unter:
+Erstes Setup: `..\scripts\setup_github_website.ps1`
 
-- `https://DEIN-USERNAME.github.io/campshare-website/`
-- Datenschutz: `.../datenschutz.html`
-- Konto löschen: `.../konto-loeschen.html`
+## Vor Play-Store-Veröffentlichung
 
-Deploy läuft via GitHub Actions (`.github/workflows/deploy-pages.yml`) bei jedem Push auf `main`.
+1. **Impressum:** Postadresse in `impressum.html` ergänzen
+2. **E-Mails:** `@campshare.app` durch deine echte Domain ersetzen (oder Weiterleitung einrichten)
+3. **Play Console:** URLs aus `play-store-urls.txt` eintragen
+4. **App:** `lib/legal_urls.dart` zeigt bereits auf GitHub Pages
+
 
 ## Google Sites (Alternative)
 
