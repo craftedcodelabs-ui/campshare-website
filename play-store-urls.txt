@@ -30,3 +30,18 @@ craftedcodelabs@gmail.com
 
 Package=
 com.craftedcodelabs.campshare
+
+# AdMob app-ads.txt (Publisher: pub-7130450566926940)
+# AdMob crawlt die STAMMDOMAIN – siehe website/github-io-root/README.md
+
+App_ads_Stammdomain_Pflicht=
+https://craftedcodelabs-ui.github.io/app-ads.txt
+
+App_ads_Website_Kopie=
+https://craftedcodelabs-ui.github.io/campshare-website/app-ads.txt
+
+AdMob_App_ID=
+ca-app-pub-7130450566926940~9801287217
+
+AdMob_Rewarded_Unit=
+ca-app-pub-7130450566926940/6428862884
