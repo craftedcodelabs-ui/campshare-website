@@ -92,6 +92,45 @@ main {
   margin: 0 auto 2rem;
 }
 
+.hero-actions {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+
+.btn-play-store {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #000;
+  color: #fff;
+  padding: 0.65rem 1.35rem;
+  border-radius: 12px;
+  text-decoration: none;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.25);
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.btn-play-store:hover {
+  transform: translateY(-1px);
+  text-decoration: none;
+  color: #fff;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+}
+
+.btn-play-store-label {
+  font-size: 0.7rem;
+  letter-spacing: 0.02em;
+  opacity: 0.9;
+  line-height: 1.2;
+}
+
+.btn-play-store-brand {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
 .badges {
   display: flex;
   flex-wrap: wrap;

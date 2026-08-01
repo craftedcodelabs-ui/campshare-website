@@ -31,6 +31,9 @@ craftedcodelabs@gmail.com
 Package=
 com.craftedcodelabs.campshare
 
+Google_Play_Store=
+https://play.google.com/store/apps/details?id=com.craftedcodelabs.campshare
+
 # AdMob app-ads.txt (Publisher: pub-7130450566926940)
 # AdMob crawlt die STAMMDOMAIN – siehe website/github-io-root/README.md
 
